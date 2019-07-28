@@ -2,7 +2,7 @@
 this is only disscussion place  for us three ----text recognition
 
 
-Environment Preparation 
+environment preparation 
 ---
 
 ```
