@@ -3,7 +3,14 @@
 tmp.*
 *.txt
 *.pyc
+*.jpg
+*.png
+*/*.jpg
+*/*.png
 train_images/
 train.list
 */__pycache__/
 */*/__pycache__/
+tags
+data/
+dataset/*

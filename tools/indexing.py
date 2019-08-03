@@ -1,6 +1,4 @@
-import matplotlib
-import numpy as np
-import matplotlib.pyplot as plt
+import re
 import  pickle
 
 
@@ -10,7 +8,8 @@ def indexing(filename='char2index.pkl'):
     with open('train.list', 'r') as f:
         char2num = {}
         for line in f.readlines():
-            chars = line.split()[-1]
+            chars = line.split('\t', 3)[-1]
+            chars = re.sub(r'\s+', '', chars)
             if chars:
                 for char in chars:
                     if not char2num.get(char):

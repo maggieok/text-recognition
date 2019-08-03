@@ -53,4 +53,18 @@ tar -xvf train_images.tar.gz -C /path/to/<your repositories>
 pyton3 tools/indexing.py
 ```
 
+3. split dataset to train and val
+```
+mkdir dataset
+ln -s /path/to/<your repositories>/train_images dataset/images
+python3 tools/dataset_split.py
+```
+
+4. training
+```
+python3 train.py
+```
+
+
+
 

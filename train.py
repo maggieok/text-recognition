@@ -32,10 +32,10 @@ add_arg('model',    str,   "crnn_ctc",           "Which type of network to be us
 # ├── train_images
 # └── train.list
 
-add_arg('train_images',      str, "./data/train_images/", "train image dir")
-add_arg('train_list',        str, "./data/train.list",   "train image list")
-add_arg('test_images',       str, "./data/test_images/",  "test image dir")
-add_arg('test_list',         str, "./data/test.list",    "test image list")
+add_arg('train_images',      str, "./dataset/images/", "train image dir")
+add_arg('train_list',        str, "./dataset/train.txt",   "train image list")
+add_arg('test_images',       str, "./dataset/images/",  "test image dir")
+add_arg('test_list',         str, "./dataset/val.txt",    "test image list")
 #add_arg('init_model',        str,   "pretrain/ocr_ctc_params",       "The init model file of directory.")
 add_arg('init_model',        str,   None,       "The init model file of directory.")
 add_arg('use_gpu',           bool,  True,      "Whether use GPU to train.")
