@@ -1,0 +1,9 @@
+*.tar.gz  
+*.pkl
+tmp.*
+*.txt
+*.pyc
+train_images/
+train.list
+*/__pycache__/
+*/*/__pycache__/
