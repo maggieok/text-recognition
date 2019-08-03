@@ -39,5 +39,5 @@ if __name__ == "__main__":
 
     indexing(filename)
     char2index = load_index(filename)
-    print(char2index)
+    # print(char2index)
 
