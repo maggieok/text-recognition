@@ -7,7 +7,6 @@ import  pickle
 def indexing(filename='char2index.pkl'):
 
     char2index = {}
-
     with open('train.list', 'r') as f:
         char2num = {}
         for line in f.readlines():
@@ -22,7 +21,6 @@ def indexing(filename='char2index.pkl'):
         sort_char2num = sorted(char2num.items(), key=lambda item: item[1], reverse=True)
         
         for index, (char,num) in enumerate(sort_char2num):
-            # print(index, char, num)
             char2index[char] = index
 
         with  open(filename, 'wb') as p:
