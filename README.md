@@ -3,7 +3,7 @@ this is only disscussion place  for us three ----text recognition
 
 
 1. training for english dataset
----
+================
 
 
 1.1 cloning code
