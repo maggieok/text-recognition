@@ -50,7 +50,7 @@ tar -xvf train_images.tar.gz -C /path/to/<your repositories>
 
 2. indexing image
 ```python
-pyton3 indexing.py
+pyton3 tools/indexing.py
 ```
 
 
